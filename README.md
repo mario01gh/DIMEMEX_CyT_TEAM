@@ -2,7 +2,7 @@
 
 ## Data and Model Checkpoints
 
-Data and model checkpoints can be accessed in the following [Drive folder]([link_to_drive_folder](https://drive.google.com/file/d/1ORiaeYBQ6NNJE1kHS8ZqYI9WvW2zffsI/view?usp=sharing)).
+Data and model checkpoints can be accessed in the following [Drive folder](https://drive.google.com/file/d/1ORiaeYBQ6NNJE1kHS8ZqYI9WvW2zffsI/view?usp=sharing).
 
 ### Data
 
