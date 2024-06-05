@@ -1,34 +1,33 @@
-Data used and models checkpoints can be accessed in the following drive folder
+# Project Name
 
-data --> folder containing all the data
--
--- split_data --> images divided into splits (train split is extended with data extracted from Gemini)
--
--- text_augmentations --> csv files with augmented texts for tasks1 and 2,  train_data_augmented.csv (image-like augmentation) and real_augmentation.csv (real-text augmentation)
+## Data and Model Checkpoints
 
+Data and model checkpoints can be accessed in the following [Drive folder](link_to_drive_folder).
 
-models --> folder for storing each of the models, their loss&accuracy evolution graphs, classification reports and confusion matrices
+### Data
 
+- `split_data`: Contains images divided into splits. The train split is extended with data extracted from Gemini.
+- `text_augmentations`: Contains CSV files with augmented texts for tasks 1 and 2.
+  - `train_data_augmented.csv`: Image-like augmentation
+  - `real_augmentation.csv`: Real-text augmentation
 
-notebooks --> notebooks used for the models development
--
--- train_with_splits --> contains notebooks for training using all different models with train, val and tests splits storing the results
--
--- real_text_augmentation--> contains notebooks for training using all different models using the Real_Text_Augmentation approach
--
--- test_models --> contains notebooks for loading and testing all the models over the testing data provided by the competition generating the output files
--
--- auxiliary_notebooks
-   -
-   -- gemini_vision.ipynb --> used for expanding the dataset using Gemini 1.5 Pro API
-   -
-   -- data_aug_text.ipynb --> used for creating the tex augmentations using LM Studio with LLama 3 as a local API
-   -
-   -- data_split.py --> used for decoding the one-hot labels and splitting the data into train val and test
-   -
-   -- graphs.ipynb --> used for creating the dataset graphs
-   -
-   -- task2_submission_generate.py --> used for combining the output csv files with predictions for task1 and task2, the result is the submission for the second task
+### Models
 
+- `models`: Contains each model, their loss & accuracy evolution graphs, classification reports, and confusion matrices.
 
-results.csv  -->  file used for storing train&val&test loss&accuracy and the best epoch for each model
+### Notebooks
+
+- `train_with_splits`: Notebooks for training using different models with train, val, and test splits, storing the results.
+- `real_text_augmentation`: Notebooks for training using different models with the Real_Text_Augmentation approach.
+- `test_models`: Notebooks for loading and testing all models over the testing data provided by the competition, generating the output files.
+- `auxiliary_notebooks`: Various utility notebooks.
+  - `gemini_vision.ipynb`: Expands the dataset using Gemini 1.5 Pro API.
+  - `data_aug_text.ipynb`: Creates text augmentations using LM Studio with LLama 3 as a local API.
+  - `data_split.py`: Decodes the one-hot labels and splits the data into train, val, and test.
+  - `graphs.ipynb`: Creates dataset graphs.
+  - `task2_submission_generate.py`: Combines the output CSV files with predictions for task 1 and task 2, resulting in the submission for the second task.
+
+### Results
+
+- `results.csv`: Stores train, val, and test loss & accuracy, and the best epoch for each model.
+
