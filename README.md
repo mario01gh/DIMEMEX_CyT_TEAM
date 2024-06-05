@@ -13,7 +13,7 @@ Data and model checkpoints can be accessed in the following [Drive folder](link_
 
 ### Models
 
-- `models`: Contains each model, their loss & accuracy evolution graphs, classification reports, and confusion matrices.
+- `models`: Contains each model, their loss & accuracy evolution graphs, classification reports, and confusion matrices. To identify the models, you can see the identifier of each model in the tables in the results section of the paper.
 
 ### Notebooks
 
